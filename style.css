@@ -1,0 +1,216 @@
+header{
+	height: 280px;
+
+}
+
+@font-face{
+	font-family: 'WebSymbolsRegular';
+    src: url('websymbols/websymbols-regular-webfont.eot');
+    src: url('websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('websymbols/websymbols-regular-webfont.woff') format('woff'),
+         url('websymbols/websymbols-regular-webfont.ttf') format('truetype'),
+         url('websymbols/WebSymbolsLiga-Regular.otf') format('opentype'),
+         url('websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: 'Wisdom';
+	src: url('Wisdom Script.otf') format('opentype');
+}
+
+
+.nav-icon{
+	font-family: 'WebSymbolsRegular', cursive;
+	line-height: 90px;
+	text-shadow: 0px 0px 1px #333;
+	width: 100%;
+	height:50%;
+	text-align: center;
+	display: inline-block;
+	transition: all 300ms linear;
+}
+
+.nav-logo{
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav-ashiya{
+	width: 250px;
+	transition: all 300ms linear;
+}
+
+body{
+	background-color: #eeeeee;
+	margin-top: 0;
+}
+
+.content{
+
+}
+#information{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content_info{
+	width: 30%;
+
+	display: table-cell;
+	text-align: center;
+	padding: 10px;
+}
+
+.content_info h1{
+	font-size: 30px;
+}
+
+.content #style{
+	border-right: 1px solid black;
+}
+
+.content #seo{
+	border-right: 1px solid black;
+}
+
+
+#contact{
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+.nav-social{	
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.nav-social ul{
+	padding: 0;
+	margin: 0;
+	padding-left: 30px;
+}
+
+.nav-social li{
+	list-style: none;
+	width: 50px;
+	height: 100px;
+	display: inline-block;
+	border: 3px solid transparent;
+	margin-right: 30px;
+
+	opacity: 0.5;
+
+
+	transition: all 300ms linear;
+
+}
+
+
+.nav-social li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #3B5998;
+	position: relative;
+}
+
+.nav-social .nav-icon{
+	font-size: 50px;
+}
+
+
+.nav-social li:hover{
+	opacity: 1;
+}
+
+.nav-social li:hover .nav-icon{
+	font-size: 80px;
+}
+
+
+#contact #phone{
+font-size: 20px;
+display: block;
+margin-top: 20px;
+}
+
+#contact #phone #icon{
+	font-size: 25px;
+}
+
+#contact #mail{
+	font-size: 20px;
+	margin-top: 20px;
+}
+/*--------------------------------BP---------------------*/
+@media screen and (max-width: 1200px){
+
+
+.nav-icon{
+	font-size: 20px;
+}
+
+.nav-main{
+	font-size: 20px;
+}
+
+
+.nav-menu li:hover .nav-icon{
+	font-size: 50px;
+}
+
+.nav-menu li:hover .nav-main{
+	font-size: 15px;
+}
+
+
+.nav-ashiya{
+	width: 200px;
+}
+
+.nav-social{
+	margin-left: 20px;
+}
+
+
+
+
+@media screen and (max-width: 1050px){
+
+
+} /* storlek slut*/
+
+@media screen and (max-width: 870px){
+
+
+
+@media screen and (max-width: 740px){
+
+.nav-icon{
+	display: inline-block;
+	float: left;
+	line-height: 50px;
+	width: 50%;
+	height:100%;
+}
+
+.nav-content{
+	width: 50%;
+	height: 100%;
+}
+
+.nav-main{
+	font-size: 20px;
+}
+
+
+@media screen and (max-width: 530px){
+body{
+	width: 530px;
+}
+}
